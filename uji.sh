@@ -10,10 +10,10 @@ echo -e "\e[0m"
 echo "=================================================="
 sleep 2
 
-# 1. Update packages
+echo -e '\e[32m1.Update packagese\e[39m'
 sudo apt update && sudo apt upgrade -y
 
-# 2. Install dependencies
+echo -e '\e[32m2. Install dependencies\e[39m'
 sudo apt install wget jq build-essential nano unzip -y
 
 # 3. Install docker
