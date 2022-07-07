@@ -45,7 +45,7 @@ mkdir subquery-indexer && cd subquery-indexer
 wget -qO docker-compose.yml https://raw.githubusercontent.com/subquery/indexer-services/main/docker-compose.yml
 docker-compose up -d
 
-# Node setup finished!
+echo -e '\e[36mNode setup finished!\e[39m'
 
 dashboard_url="http://$(wget -qO- eth0.me):8000"
 
