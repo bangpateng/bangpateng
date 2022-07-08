@@ -10,12 +10,11 @@ echo -e "\e[0m"
 echo "=================================================="
 sleep 2
 
-echo "-----------------------------------------------------"
-echo -e'\e[36mAuthor : Bang Pateng\e[39m'
-echo -e'\e[36mTelegram Group : @bangpateng_group\e[39m'
-echo -e'\e[36mTelegram Channel : @bangpateng_airdrop\e[39m'
-echo -e'\e[36mYoutube : Bang Pateng\e[39m'
-echo -e'\e[36mWebsite : www.bangpatengnode.site\e[39m'
+echo -e '\e[36mAuthor :\e[39m Bang Pateng'
+echo -e '\e[36mTelegram Group :\e[39m @bangpateng_group'
+echo -e '\e[36mTelegram Channel :\e[39m @bangpateng_airdrop'
+echo -e '\e[36mYoutube :\e[39m Bang Pateng'
+echo -e '\e[36mWebsite :\e[39m www.bangpatengnode.site'
 echo "-----------------------------------------------------"
 
 echo -e '\e[36m1.Update packagese\e[39m'
