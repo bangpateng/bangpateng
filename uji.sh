@@ -12,7 +12,6 @@ sleep 2
 
 bi='\033[033[34;1m' #biru
 me='\033[033[24;1m' #hijau
-clear
 echo
 echo $bi"-----------------------------------------"
 echo $me"Author : Bang Pateng"
