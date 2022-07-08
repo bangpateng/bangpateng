@@ -17,7 +17,7 @@ echo -e '\e[36mYoutube :\e[39m' Bang Pateng
 echo -e '\e[36mWebsite :\e[39m' www.bangpatengnode.site
 echo "======================================="
 
-echo -e '\e[36m1.Update packagese\e[39m'
+echo -e '\e[40m1.Update packagese\e[92m'
 sudo apt update && sudo apt upgrade -y
 
 echo -e '\e[36m2. Install dependencies\e[39m'
