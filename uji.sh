@@ -10,16 +10,13 @@ echo -e "\e[0m"
 echo "=================================================="
 sleep 2
 
-bi='\033[033[34;1m' #biru
-me='\033[033[24;1m' #hijau
-echo
-echo $bi"-----------------------------------------"
-echo $me"Author : Bang Pateng"
-echo $me"Telegram Group : @bangpateng_group"
-echo $me"Telegram Channel : @bangpateng_airdrop"
-echo $me"Youtube : Bang Pateng"
-echo $me"Website : www.bangpatengnode.site"
-echo $bi"-----------------------------------------"
+echo "-----------------------------------------------------"
+echo -e'\e[36mAuthor : Bang Pateng\e[39m'
+echo -e'\e[36mTelegram Group : @bangpateng_group\e[39m'
+echo -e'\e[36mTelegram Channel : @bangpateng_airdrop\e[39m'
+echo -e'\e[36mYoutube : Bang Pateng\e[39m'
+echo -e'\e[36mWebsite : www.bangpatengnode.site\e[39m'
+echo "-----------------------------------------------------"
 
 echo -e '\e[36m1.Update packagese\e[39m'
 sudo apt update && sudo apt upgrade -y
