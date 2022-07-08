@@ -17,13 +17,13 @@ echo -e '\e[36mYoutube :\e[39m' Bang Pateng
 echo -e '\e[36mWebsite :\e[39m' www.bangpatengnode.site
 echo "====================================="
 
-echo -e <=========='\e[36m1.Update packagese\e[39m'==========>
+echo -e '\e[36m1.Update packagese\e[39m'
 sudo apt update && sudo apt upgrade -y
 
-echo -e '\e[36m<==========2. Install dependencies==========>\e[39m'
+echo -e '\e[36m2. Install dependencies\e[39m'
 sudo apt install wget jq build-essential nano unzip -y
 
-echo -e '\e[36m<==========3. Install docker==========>\e[39m'
+echo -e '\e[36m3. Install docker\e[39m'
 sudo apt-get install ca-certificates curl gnupg lsb-release -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
