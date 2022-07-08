@@ -17,10 +17,10 @@ echo -e '\e[36mYoutube :\e[39m' Bang Pateng
 echo -e '\e[36mWebsite :\e[39m' www.bangpatengnode.site
 echo "======================================="
 
-echo -e '\e[40m1.Update packagese\e[92m'
+echo -e '\e[92m1.Update packagese\e[0m'
 sudo apt update && sudo apt upgrade -y
 
-echo -e '\e[36m2. Install dependencies\e[39m'
+echo -e '\e[92m2. Install dependencies\e[0m'
 sudo apt install wget jq build-essential nano unzip -y
 
 echo -e '\e[36m3. Install docker\e[39m'
