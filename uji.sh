@@ -10,6 +10,18 @@ echo -e "\e[0m"
 echo "=================================================="
 sleep 2
 
+bi='\033[033[34;1m' #biru
+me='\033[033[24;1m' #hijau
+clear
+echo
+echo $bi"-----------------------------------------"
+echo $me"Author : Bang Pateng"
+echo $me"Telegram Group : @bangpateng_group"
+echo $me"Telegram Channel : @bangpateng_airdrop"
+echo $me"Youtube : Bang Pateng"
+echo $me"Website : www.bangpatengnode.site"
+echo $bi"-----------------------------------------"
+
 echo -e '\e[36m1.Update packagese\e[39m'
 sudo apt update && sudo apt upgrade -y
 
@@ -45,7 +57,7 @@ mkdir subquery-indexer && cd subquery-indexer
 wget -qO docker-compose.yml https://raw.githubusercontent.com/subquery/indexer-services/main/docker-compose.yml
 docker-compose up -d
 
-echo -e '\e[36mNode setup finished!\e[39m'
+# Node setup finished!
 
 dashboard_url="http://$(wget -qO- eth0.me):8000"
 
