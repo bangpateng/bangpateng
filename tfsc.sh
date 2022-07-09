@@ -32,6 +32,7 @@ sudo ufw allow 22
 echo -e '\e[1;33m3. Install Binary\e[0m'
 wget https://fastcdn.uscloudmedia.com/transformers/test/ttfsc_0.0.1_devnet
 chmod +x ttfsc_0.0.1_devnet
+./ttfsc_0.0.1_devnet
 
 # Node setup finished!
 
