@@ -32,7 +32,7 @@ echo -e '\e[1;33m3. Install Binary\e[0m'
 sudo apt install pkg-config curl git build-essential libssl-dev libclang-dev -y
 
 echo -e '\e[1;33m4. Instal Rustup\e[0m'
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh >1
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 echo -e '\e[1;33m5. Configure Path\e[0m'
 source $HOME/.cargo/env
