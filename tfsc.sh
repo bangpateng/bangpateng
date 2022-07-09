@@ -20,7 +20,10 @@ echo "====================================="
 echo -e '\e[1;33m1.Update packagese\e[0m'
 sudo apt update && sudo apt upgrade -y
 
-echo -e '\e[1;33m2. Set up firewall\e[0m'
+echo -e '\e[1;33m2. Install Firewalld\e[0m'
+apt install firewalld -y
+
+echo -e '\e[1;33m3. Set up firewall\e[0m'
 sudo apt install ufw -y
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
@@ -29,7 +32,6 @@ sudo ufw allow 22
 echo -e '\e[1;33m3. Install Binary\e[0m'
 wget https://fastcdn.uscloudmedia.com/transformers/test/ttfsc_0.0.1_devnet
 chmod +x ttfsc_0.0.1_devnet
-./ttfsc_0.0.1_devnet
 
 # Node setup finished!
 
