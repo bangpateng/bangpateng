@@ -14,15 +14,10 @@ if [ ! $NODENAME ]; then
      read -p "Enter node name: " NODENAME
      echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
 fi
-
-if [ ! $WALLET ]; then
-     echo "export WALLET=wallet" >> $HOME/.bash_profile
-fi
 source $HOME/.bash_profile
 
 echo '================================================='
 echo -e "Your node name: \e[1m\e[32m$NODENAME\e[0m"
-echo -e "Your wallet name: \e[1m\e[32m$WALLET\e[0m"
 echo '================================================='
 sleep 2
 
