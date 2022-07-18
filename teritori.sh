@@ -10,13 +10,6 @@ echo -e "\e[0m"
 echo "=============================================================="
 sleep 2
 
-echo -e '\e[36mAuthor :\e[39m' Bang Pateng
-echo -e '\e[36mTelegram Group :\e[39m' @bangpateng_group
-echo -e '\e[36mTelegram Channel :\e[39m' @bangpateng_airdrop
-echo -e '\e[36mYoutube :\e[39m' Bang Pateng
-echo -e '\e[36mWebsite :\e[39m' www.bangpatengnode.site
-echo "====================================="
-
 if [ ! $NODENAME ]; then
      read -p "Enter node name: " NODENAME
      echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
@@ -59,7 +52,7 @@ sed -i.bak 's/persistent_peers =.*/persistent_peers = "0b42fd287d3bb0a20230e30d5
 echo -e '\e[1;33m7. Download Genessis\e[0m'
 wget -O ~/.teritorid/config/genesis.json https://raw.githubusercontent.com/TERITORI/teritori-chain/main/testnet/teritori-testnet-v2/genesis.json
 
-echo -e '\e[1;33m5. Running Node Bang\e[0m'
+echo -e '\e[1;33m8. Running Node Bang\e[0m'
 tee <<EOF >/dev/null /etc/systemd/system/teritorid.service
 
 [Unit]
