@@ -14,13 +14,6 @@ if [ ! $NODENAME ]; then
      read -p "Enter node name: " NODENAME
      echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
 fi
-source $HOME/.bash_profile
-
-echo '================================================='
-echo -e "Your node name: \e[1m\e[32m$NODENAME\e[0m"
-echo '================================================='
-sleep 2
-
 echo -e '\e[1;33m1.Update packagese\e[0m' && sleep 1
 sudo apt update && sudo apt upgrade -y
 
@@ -82,5 +75,5 @@ systemctl restart teritorid
 
 # Node setup finished!
 
-echo '=============== SETUP FINISHED ==================='
+echo '=============== SETUP KELAR BANG ==================='
 echo -e 'To check logs: \e[1m\e[32mjournalctl -u teritorid.service -f -n 100\e[0m'
