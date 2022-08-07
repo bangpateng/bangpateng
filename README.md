@@ -1,13 +1,11 @@
+# Selamat Datang di Github Bang Pateng | Bang Pateng Is Indonesia's Cryptocurrency Community, Since 2017. We Discuss Airdrop, AMA, Trading. Node and More
+
 😎 **Follow My Community :** [Telegram Group](https://t.me/bangpateng_group) | [Telegram Channel](https://t.me/bangpateng_airdrop) | [Youtube](https://www.youtube.com/channel/UC-8UofFzGLmCx2ysqRKl-ew) | [Website](http://www.bangpateng.com)
 
-# Ini Judul Paragraf
+## 1. Node Emang Puyeng Tetapi harus di Pelajari Bang
 
-```Hanya Test Saja Mari kita Coba```
+Ini Hanya Panduan Testt Saja
 
-# Ini Judul Paragraf
-
-# Ini Judul Paragraf
-
-# Ini Judul Paragraf
-
-# Ini Judul Paragraf
+```
+bang ngopi nyok gua bayarin
+```
