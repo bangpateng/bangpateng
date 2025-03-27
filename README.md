@@ -6,9 +6,9 @@
  
 | Sosial Media  | |
 | :------------: | :------------: |
-| Telegram Group  | [Link](https://t.me/bangpateng_group "Link")  |
+| Telegram Group  | [Link](https://t.me/bangpateng_chat "Link")  |
 | Telegram Chat  | [Link](https://t.me/bangpateng_airdrop "Link")  |
 | Twitter  | [Link](https://www.twitter.com/bangpateng_com "Link")  |
 |  Youtube | [Link](https://www.youtube.com/c/BangPateng/ "Link")  |
-|  Website | [Link](http://www.bangpateng.com "Link")  |
+|  Website | [Link](http://www.bangpateng.xyz "Link")  |
 </p>
