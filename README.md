@@ -2,7 +2,7 @@
   
 # BANG PATENG COMMUNITY
 
-### Indonesia's Premier Cryptocurrency Community Since 2017
+### Indonesia's Premier Cryptocurrency Community Since 2017 
 #### 💰 Airdrop | 💬 AMA | 📊 Trading | 🖥️ Node | 🔗 Blockchain  
 
 [![GitHub followers](https://img.shields.io/github/followers/bangpateng?style=social)](https://github.com/bangpateng)
