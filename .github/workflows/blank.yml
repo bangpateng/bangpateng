@@ -1,36 +1,43 @@
-# This is a basic workflow to help you get started with Actions
+name: Auto Commit
 
-name: CI
-
-# Controls when the workflow will run
+# Run this workflow every 3 minutes
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  schedule:
+    - cron: '*/3 * * * *'  # Run every 3 minutes
+  workflow_dispatch:  # Allow manual triggering
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  auto-commit:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      # Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for proper commit history
+      
+      # Configure Git
+      - name: Configure Git
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          git config --local user.email "coinnyari@gmail.com"
+          git config --local user.name "bangpateng"
+      
+      # Create a timestamp file
+      - name: Create Timestamp
+        run: |
+          echo "Auto commit at $(date)" > timestamp.txt
+      
+      # Commit the changes
+      - name: Commit Changes
+        run: |
+          git add timestamp.txt
+          git commit -m "Auto commit at $(date)"
+        continue-on-error: true  # Continue even if no changes to commit
+      
+      # Push the changes
+      - name: Push Changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
