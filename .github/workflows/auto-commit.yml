@@ -1,0 +1,46 @@
+name: Auto Commit
+
+# Run this workflow every 15 minutes (interval yang lebih aman)
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Jalankan setiap 15 menit
+  workflow_dispatch:  # Memungkinkan pemicu manual
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Memberikan izin eksplisit untuk menulis konten
+    
+    steps:
+      # Checkout repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Ambil seluruh riwayat untuk commit history yang benar
+          token: ${{ secrets.GITHUB_TOKEN }}  # Token eksplisit untuk autentikasi
+      
+      # Konfigurasi Git
+      - name: Konfigurasi Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      
+      # Buat file timestamp
+      - name: Buat Timestamp
+        run: |
+          echo "Commit otomatis pada $(date)" > timestamp.txt
+      
+      # Commit perubahan
+      - name: Commit Perubahan
+        run: |
+          git add timestamp.txt
+          git commit -m "Commit otomatis pada $(date)"
+        continue-on-error: true  # Lanjutkan meskipun tidak ada perubahan untuk di-commit
+      
+      # Push perubahan dengan credential yang ditangani oleh GitHub Actions
+      - name: Push Perubahan
+        run: |
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
