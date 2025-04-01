@@ -1,14 +1,58 @@
-# Welcome To Github Bang Pateng | Bang Pateng Is Indonesia's Cryptocurrency Community, Since 2017. We Discuss Airdrop, AMA, Trading. Node and More
+<div align="center">
+  
+# 🚀 BANG PATENG COMMUNITY 🚀
 
-<p align="center">
-  <img height="200" height="auto" src="https://user-images.githubusercontent.com/38981255/183307761-5557fc3d-1ab5-4a21-8a57-99b93b36ed46.png">
+![Banner](https://user-images.githubusercontent.com/38981255/183307761-5557fc3d-1ab5-4a21-8a57-99b93b36ed46.png)
 
- 
-| Sosial Media  | |
-| :------------: | :------------: |
-| Telegram Group  | [Link](https://t.me/bangpateng_chat "Link")  |
-| Telegram Chat  | [Link](https://t.me/bangpateng_airdrop "Link")  |
-| Twitter  | [Link](https://www.twitter.com/bangpateng_com "Link")  |
-|  Youtube | [Link](https://www.youtube.com/c/BangPateng/ "Link")  |
-|  Website | [Link](http://www.bangpateng.xyz "Link")  |
-</p>
+### Indonesia's Premier Cryptocurrency Community Since 2017
+#### 💰 Airdrop | 💬 AMA | 📊 Trading | 🖥️ Node | 🔗 Blockchain
+
+[![GitHub followers](https://img.shields.io/github/followers/bangpateng?style=social)](https://github.com/bangpateng)
+[![Twitter Follow](https://img.shields.io/twitter/follow/bangpateng_com?style=social)](https://twitter.com/bangpateng_)
+
+</div>
+
+---
+
+## 🌟 Tentang Kami
+
+Bang Pateng adalah komunitas kripto terkemuka di Indonesia sejak 2017. Kami menyediakan ruang bagi para crypto enthusiast untuk:
+- Mendapatkan informasi terbaru tentang proyek blockchain menjanjikan
+- Mengikuti program airdrop terverifikasi
+- Belajar tentang node operation dan validating
+- Terhubung dengan penggiat kripto lainnya dari seluruh Indonesia
+
+## 📱 Bergabung Dengan Komunitas Kami
+
+<div align="center">
+
+| Platform | Link | Deskripsi |
+|:--------:|:----:|:---------:|
+| <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /> | [Group](https://t.me/bangpateng_chat) | Diskusi umum & networking |
+| <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /> | [Channel](https://t.me/bangpateng_airdrop) | Info airdrop & update |
+| <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /> | [Twitter](https://www.twitter.com/bangpateng_com) | Berita & update terbaru |
+| <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /> | [YouTube](https://www.youtube.com/c/BangPateng/) | Tutorial & review proyek |
+| <img src="https://img.shields.io/badge/Website-0078D7?style=for-the-badge&logo=google-chrome&logoColor=white" /> | [Website](http://www.bangpateng.xyz) | Portal informasi utama |
+
+</div>
+
+</div>
+
+## 🗞️ Latest Updates
+
+- 🚀 Launching Bang Pateng Academy untuk pembelajaran blockchain mendalam
+- 🌟 Exclusive partnership dengan proyek blockchain teratas
+- 🔍 Node validator guide untuk proyek-proyek terbaru
+- 💰 Informasi airdrop terverifikasi dan terpercaya
+
+---
+
+<div align="center">
+
+### "Membangun Masa Depan Blockchain Indonesia Bersama"
+
+<img src="https://komarev.com/ghpvc/?username=bangpateng&style=flat-square&color=blue" alt="Profile views"/>
+
+[![GitHub stars](https://img.shields.io/github/stars/bangpateng/bangpateng?style=social)](https://github.com/bangpateng/bangpateng)
+
+</div>
