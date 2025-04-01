@@ -1,8 +1,6 @@
 <div align="center">
   
-# 🚀 BANG PATENG COMMUNITY 🚀
-
-![Banner](https://user-images.githubusercontent.com/38981255/183307761-5557fc3d-1ab5-4a21-8a57-99b93b36ed46.png)
+# BANG PATENG COMMUNITY
 
 ### Indonesia's Premier Cryptocurrency Community Since 2017
 #### 💰 Airdrop | 💬 AMA | 📊 Trading | 🖥️ Node | 🔗 Blockchain
