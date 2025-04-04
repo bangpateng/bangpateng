@@ -1,6 +1,6 @@
 <div align="center">
   
-# BANG PATENG COMMUNITY
+# BANG PATENG COMMUNITY 
 
 ### Indonesia's Premier Cryptocurrency Community Since 2017 
 #### 💰 Airdrop | 💬 AMA | 📊 Trading | 🖥️ Node | 🔗 Blockchain  
